@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tewen/localism.git"
+  },
   "engines": {
     "node": ">=7.6.0",
     "npm": ">=4.1.2"
@@ -20,5 +24,9 @@
     "snapshot"
   ],
   "author": "Trevor Ewen",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tewen/localism/issues"
+  },
+  "homepage": "https://github.com/tewen/localism"
 }
