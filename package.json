@@ -1,0 +1,24 @@
+{
+  "name": "localism",
+  "version": "0.0.1",
+  "description": "Tools for speedy, efficient local development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.1.2"
+  },
+  "keywords": [
+    "local",
+    "development",
+    "test",
+    "mock",
+    "stub",
+    "cache",
+    "snapshot"
+  ],
+  "author": "Trevor Ewen",
+  "license": "ISC"
+}
