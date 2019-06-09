@@ -1,3 +1,3 @@
-module.exports = () => {
-  console.log('Not yet implemented.');
-};
+const { assign } = require('lodash');
+
+module.exports = assign({}, require('./lib/cache'));

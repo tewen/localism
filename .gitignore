@@ -10,3 +10,5 @@ resources/cache
 missing-issue-contract-keys.json
 create-droplet.sh
 .env
+cache
+altCache
