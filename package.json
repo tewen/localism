@@ -8,6 +8,10 @@
     "test:watch": "mocha --watch \"test/**/*.spec.js\"",
     "lint": "eslint lib test"
   },
+  "bin": {
+    "aws-filestore-get": "./lib/third-party/aws-filestore-get-cli.js",
+    "aws-filestore-put": "./lib/third-party/aws-filestore-put-cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/tewen/localism.git"
@@ -33,6 +37,7 @@
   "homepage": "https://github.com/tewen/localism",
   "dependencies": {
     "aws-sdk": "^2.486.0",
+    "command-line-args": "^5.1.1",
     "deep-cuts": "^1.3.0",
     "fs-extra": "^8.0.1",
     "lodash": "^4.17.11",
