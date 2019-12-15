@@ -9,8 +9,8 @@
     "lint": "eslint lib test"
   },
   "bin": {
-    "aws-filestore-get": "./lib/third-party/aws-filestore-get-cli.js",
-    "aws-filestore-put": "./lib/third-party/aws-filestore-put-cli.js"
+    "aws-filestore-get": "./lib/cli/aws-get-file-from-s3.js",
+    "aws-filestore-put": "./lib/cli/aws-put-file-on-s3.js"
   },
   "repository": {
     "type": "git",

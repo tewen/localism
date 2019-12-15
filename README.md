@@ -21,6 +21,16 @@ const cacheFn = simpleCache({fn: myAsyncFunction });
 
 ### Methods
 
+#### getFileFromS3({s3Credentials, bucket, key, fileStream, contentType = 'text/plain'})
+
+Retrieves the file from the bucket at the key and writes it to the stream provided. 
+
+
+#### putFileOnS3({s3Credentials, bucket, key, fileStream, contentType = 'text/plain'})
+
+Places the file into the bucket at the key and reads it from the stream provided.
+
+
 #### simpleCache({fn, [transformFromFile, fileNameGenerator, cacheDirectoryPath, uuidFileName]})
 
 Wraps a given method to create a cache that writes to the local file system. The huge local development advantage is the ability to read and review responses, while keeping the cache from relying on what's in memory.
