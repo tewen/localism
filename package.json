@@ -39,7 +39,7 @@
     "aws-sdk": "^2.486.0",
     "command-line-args": "^5.1.1",
     "deep-cuts": "^1.3.0",
-    "fs-extra": "^8.0.1",
+    "fs-extra": "^9.0.0",
     "lodash": "^4.17.11",
     "minimist": "^1.2.2",
     "qs": "^6.7.0",
